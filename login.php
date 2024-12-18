@@ -24,7 +24,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             // Display a popup message and redirect to a welcome page
             echo "<script>
                     alert('Login successful! Welcome, " . addslashes($user["full_name"]) . "');
-                    window.location.href = 'welcome.html';
+                    window.location.href = 'products.php';
                   </script>";
             exit;
         } else {
